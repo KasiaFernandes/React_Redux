@@ -1,6 +1,6 @@
 import React from 'react';
 // import Comment from 'Comment';
-import Comment from './CommentContainer';
+import Comment from '../containers/CommentContainer';
 
 const CommentsList = ({ comments }) => <ul>{comments.map(comment => <Comment key={comment.id} {...comment} />)}</ul>;
 
